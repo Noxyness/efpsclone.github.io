@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image.png" href="images/efps-clone-logo.png"/>
+  <title>eFPS Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>eFPS Clone</h1>
+      <nav>
+        <a href="index.html" class="homeBtn">Home</a>
+        <a href="login.html" class="loginBtn">Login</a>
+        <a href="about.html" class="aboutBtn">About</a>
+        <a href="jobaids.html" class="jobBtn">Job Aids</a>
+        <a href="birmain.html" class="mainBtn">BIR Main</a>
+        <a href="download.html" class="downloadBtn">Download</a>
+        <a href="logout.html" class="logoutBtn">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="announcement">
+      <h3>Announcement</h3>
+      <p id="announcementText">PLEASE HIRE ME IM BEGGING YOU 🥺</p>
+    </section>
+
+    <section class="login-box">
+      <h2>eFPS Login</h2>
+      <form id="loginForm">
+        <label for="tin">TIN</label>
+        <input
+          type="text"
+          id="tin"
+          name="tin"
+          placeholder="000-000-000-0000"
+          maxlength="14"
+          required
+          autocomplete="off"
+        />
+
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <button type="submit" id="loginBtn">Login</button>
+      </form>
+      <div class="login-links">
+        <a href="#">Forgot Password?</a> | <a href="#">Enroll to FPS BIR</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 eFPS Clone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
